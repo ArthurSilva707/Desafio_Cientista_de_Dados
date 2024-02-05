@@ -32,7 +32,7 @@ $ git clone https://github.com/ArthurSilva707/Desafio_Cientista_de_Dados.git
     - Ambiente de Execução > Executar tudo
     - ![Executar tudo](https://i.imgur.com/VVD723w.png)
 4. Após todos os códigos serem executados com sucesso esse deve ser o resultado da aba de arquivos do seu Colab
-   - ![Resultado final](https://i.imgur.com/0rR90PM.png)
+   - ![Resultado final](https://i.imgur.com/X4Hxm3a.png)
 
 
 ## O presente projeto teve como propósito responder às seguintes questões: 

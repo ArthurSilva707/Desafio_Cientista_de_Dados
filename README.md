@@ -20,7 +20,7 @@ Antes de começar, você precisará ter acesso as seguintes ferramentas:
 $ git clone https://github.com/ArthurSilva707/Desafio_Cientista_de_Dados.git
 ```
 
-#### Após clonar o repósitorio acesse o seguinte link:
+#### Após clonar o repósitorio acesse o seguinte link e cumpra todas as etapas do passo a passo:
 
 1. [Desafio Cientista de Dados](https://colab.research.google.com/drive/10Zm2IH0ngJV8cxaeB-PAc177nc40krAy?usp=sharing)
     - Atente-se que o link está em modo leitor

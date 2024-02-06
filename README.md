@@ -40,20 +40,26 @@ $ git clone https://github.com/ArthurSilva707/Desafio_Cientista_de_Dados.git
 
 1. Supondo que uma pessoa esteja pensando em investir em um apartamento para alugar na plataforma, onde seria mais indicada a compra?
 
-- R:
+- R: levando em considerações o quanto a pessoa estiver disposto a pagar, os alugueis possuem uma média de $ 152.72 
 
 2. O número mínimo de noites e a disponibilidade ao longo do ano interferem no preço?
 
-- R:
+- R: Chegam a variar em torno de $ 10-20, assim como também têm a influência do local em que o apartamento se encontra 
 
 
 3. Existe algum padrão no texto do nome do local para lugares de mais alto valor?
 
-- R: 
+- R: Sim, tem uma tendência de preços mais altos quando se passa a analizar apartamentos localizados em Manhattan e no Brooklyn.
+
 
 4. Explique como você faria a previsão do preço a partir dos dados. Quais variáveis e/ou suas transformações você utilizou e por quê? Qual tipo de problema estamos resolvendo (regressão, classificação)? Qual modelo melhor se aproxima dos dados e quais seus prós e contras? Qual medida de performance do modelo foi escolhida e por quê?
 
 - R: 
+Para a previsão do preço a partir dos dados, aqui estão os passos que eu segui:
+ - Seleção de Variáveis: considerei variáveis que intuitivamente têm uma relação com o preço, como 'minimo_noites', 'numero_de_reviews', 'reviews_por_mes' e 'disponibilidade_365'.
+ - Tipo de Problema: regressão, pois queremos prever um valor contínuo (o preço) com base em variáveis de entrada.
+ - Escolha do Modelo: utilizei modelos de regressão linear, como o Linear Regression, para estabelecer uma linha base.
+ - Métrica de Avaliação: Erro Médio Quadrático (MSE) é uma métrica comum, que mede a média dos quadrados dos erros entre os valores previstos e os reais. também foi o tipo de métrica que utilizei por mais tempo na faculdade e essa proximidade influênciou na minha escolha.
 
 5. Supondo um apartamento com as seguintes características:
    
@@ -80,7 +86,7 @@ $ git clone https://github.com/ArthurSilva707/Desafio_Cientista_de_Dados.git
 
     Qual seria a sua sugestão de preço?
 
-- R: 
+- R: baseado no meu modélo minha sugestão seria $175.65, apesar do valor desse apartamento estar por $225 de acordo com a base de dados, valores acima de $175 são minórias e isso foi considerado no modelo.
 
 
 ## 🛠️ built with

@@ -40,7 +40,8 @@ $ git clone https://github.com/ArthurSilva707/Desafio_Cientista_de_Dados.git
 
 1. Supondo que uma pessoa esteja pensando em investir em um apartamento para alugar na plataforma, onde seria mais indicada a compra?
 
-- R: levando em considerações o quanto a pessoa estiver disposto a pagar, os alugueis possuem uma média de $ 152.72 
+- R: levando em considerações o quanto a pessoa estiver disposto a pagar, os alugueis possuem uma média de $ 152.72. tem uma tendência de preços mais altos quando se passa a analizar apartamentos localizados em Manhattan e no Brooklyn e preços mais baixos quando se trata do Queens, Staten Island e Bronx. 
+. 
 
 2. O número mínimo de noites e a disponibilidade ao longo do ano interferem no preço?
 
@@ -49,13 +50,14 @@ $ git clone https://github.com/ArthurSilva707/Desafio_Cientista_de_Dados.git
 
 3. Existe algum padrão no texto do nome do local para lugares de mais alto valor?
 
-- R: Sim, tem uma tendência de preços mais altos quando se passa a analizar apartamentos localizados em Manhattan e no Brooklyn.
+- R: Sim, tem uma tendência de preços mais altos quando se passa a analizar apartamentos localizados em Manhattan e no Brooklyn e também para o tipo de espaço de cada anúncio(room_type).
 
 
 4. Explique como você faria a previsão do preço a partir dos dados. Quais variáveis e/ou suas transformações você utilizou e por quê? Qual tipo de problema estamos resolvendo (regressão, classificação)? Qual modelo melhor se aproxima dos dados e quais seus prós e contras? Qual medida de performance do modelo foi escolhida e por quê?
 
 - R: 
 Para a previsão do preço a partir dos dados, aqui estão os passos que eu segui:
+ - Tratamento dos dados: identifiquei tipos dos dados, correlações, outliers, exclui valores faltantes/nulos
  - Seleção de Variáveis: considerei variáveis que intuitivamente têm uma relação com o preço, como 'minimo_noites', 'numero_de_reviews', 'reviews_por_mes' e 'disponibilidade_365'.
  - Tipo de Problema: regressão, pois queremos prever um valor contínuo (o preço) com base em variáveis de entrada.
  - Escolha do Modelo: utilizei modelos de regressão linear, como o Linear Regression, para estabelecer uma linha base.
